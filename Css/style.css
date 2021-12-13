@@ -1,0 +1,655 @@
+*{
+    margin: 0;
+    outline: none !important;
+    padding: 0;
+}
+body{
+    background-color: #fff9f1;
+}
+/* menu syle */
+.navmenu{
+    margin-left: 15rem;
+    font-family: fantasy;
+    
+}
+.navmenu li{
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 15px 22px;
+    text-transform: capitalize;
+
+}
+.signlogin{
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.signlogin a{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.signup{
+    background-color: #f16126;
+    border-radius: 2px 0 0 2px;
+    color: white;
+}
+.signup:hover{
+    border-radius: 0 5px 5px 0;
+    color: white;
+
+}
+.login{
+    color: #f16126;
+}
+.login:hover{
+    color: #f16126;
+}
+.navbar-nav a{
+    color: black !important; 
+    font-size: 1.1rem;
+
+}
+.navbar-nav a:hover{
+    border-bottom: solid red;
+    padding-bottom: 0.3rem ;  
+    transition: all 0.3s ease;
+}
+#mainnavbar{
+    border-bottom: 1px solid rgba(16, 17, 21, 0.1);
+    position: fixed;
+    background-color: white;
+    z-index: 9;
+    width: 100%;
+    top:0;
+}
+
+/* header style */
+.headerr{
+    background-color: #fff9f1;
+    height: 35rem;
+    margin-top: 5rem;
+}
+.bienvenu{
+    margin: 6rem 3rem auto 5rem;
+}
+.bienvenu h4{
+    color: #f16126;
+    letter-spacing: 5px;
+    font-size: 18px;
+}
+.bienvenu h1{
+    color: black;
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+
+}
+.bienvenu p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #555555;
+}
+.bienvenu .mostpop{
+    font-size: 17px;
+    line-height: 0.5;
+    margin: 1rem 1rem auto 0;
+
+}
+.bienvenu ul li{
+    background: none;
+    border: 0;
+    padding: 0.5rem;
+}
+.bienvenu ul li a{
+    color: black;
+}
+.searchbtn{
+    background-color: #f16126;
+    color: white;
+    border: white;
+    border-radius: 0;
+    font-size: 1rem;
+    padding: 1rem;
+}
+.searchfrm{
+    border: white solid 0.7rem;
+    border-radius: 0;
+    font-size: 1rem;
+    height: 3rem;
+    padding: 1rem 6rem 1rem 0;
+}
+.searchfrm:focus{
+    outline: none;
+}
+.fa-search{
+    color: rgba(0, 0, 0, 0.275);
+    background-color: white;
+    padding: 1rem 0 1rem 0.5rem;
+    font-size: 1.4rem;
+    z-index: 8;
+}
+/* courses intro style */
+.courses{
+    text-align: center;
+    margin-top: 7rem;
+    background-color: #fff9f1;
+}
+.courses h1{
+    color: black;
+    font-size: 35px;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 5rem;
+}
+.courses h4{
+    color: #f16126;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+.card{
+    margin-left: 2rem !important;
+    padding: 1rem !important;
+    padding-bottom: -2rem !important;
+    margin-bottom: 2rem !important;
+    border: 0px;
+}
+.card-body{
+    height: 13rem !important;
+}
+.pricecirc{
+    position: relative;
+    background-color: #f16126;
+    color: white;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    font-weight: 700;
+    font-size: 1.25rem;
+    right: -80%;
+    top: -50px;
+}
+.courseinfo{
+    position: relative;
+    top:-3.5rem;
+    left: -1.4rem;
+}
+.coursetype1{
+    background-color: #5673a9a6;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.coursetype2{
+    background-color: #eec73e;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.ratingstars{
+    color: #f16126;
+}
+.reviewsdecourse{
+    line-height: 1.5;
+    color: #555555;
+}
+.card-body h1{
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 700;
+    left:-1rem;
+    top:-3.5rem;
+}
+.letype{
+    position: relative;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555555;
+    left:-1.8rem;
+    top:-7.5rem;
+}
+.letype i{
+    color: #f16126;
+    margin-right: 0.5rem;
+}
+
+.footercard{
+    position: relative;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555555;
+    left:-1.8rem;
+    top:-7.5rem;
+}
+/* categories style */
+.categorie{
+    align-items: center;
+    padding: 40px 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(136 136 136 / 10%);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 40px 30px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.categorie:hover{
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+}
+.categories h6{
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.categorieclass{
+    background-color: #f16126;
+    color: white;
+    width: 80px;
+    height: 80px;
+    line-height: 60px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+.nbcourses{
+    color: #00a556;
+    font-weight:500;
+}
+.voircate{
+    margin-top: 3rem;
+}
+.voircate a{
+    padding: 10px 30px;
+    background: #f16126;
+    color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 700
+}
+.voircate a:hover{
+    text-decoration: none;
+    background-color: #df6434;
+}
+/* info style */
+.desinfo{
+    margin-top: 10rem;
+    background: url("../images/des.png");
+}
+.nbinfo .col{
+    padding: 1rem;
+    margin: 1rem;
+}
+.desinfo h1{
+    color: black;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3rem;
+}
+.nbinfo p{
+    color: blue;
+    font-size: 20px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align: center;
+}
+.rejoindrez{
+
+}
+.rejoindrez h1{
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1rem;
+    text-align: left;
+}
+.rejoindrez img{
+    max-width: 100%;
+}
+.rejoindrez button{
+    background: #26C976;
+    width: 90%;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    padding: 0.7rem 1rem;
+    margin: 2rem auto;
+    border-radius: 5px;
+    border: 0;
+}
+.rejoindrez .col{
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgb(16 17 21 / 10%);
+    margin: auto 2rem;
+    padding: 1rem 0 1rem 2rem;
+}
+.rejoindrez .une button{
+    background: wheat;
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+}
+.rejoindrez .deux{
+    margin-right: 4rem;
+}
+/* poid style */
+.lepoid{
+    background-color: #221744;
+    margin-top: 5rem;
+}
+
+.lepoid h1{
+    color: white;
+    font-size: 30px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align: left;
+}
+.emailbtn{
+    background-color: #26C697;
+    color: white;
+    border: white;
+    border-radius: 0;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border: 0.2rem solid white;
+}
+.emailfrm{
+    border: white solid 0.7rem;
+    border-radius: 0;
+    font-size: 1rem;
+    height: 3rem;
+    padding: 1rem 6rem 1rem 0;
+}
+.emailfrm:focus{
+    outline: none;
+}
+.fa-mailchimp{
+    color: #26C697;
+    background-color: white;
+    padding: 1.1rem 0.5rem 1rem 0.5rem;
+    font-size: 1.4rem;
+}
+.poidinfo hr{
+    width: 4rem;
+    height: 2px;
+    top: -1rem;
+    background-color: green;
+}
+.lepoid ul{
+    list-style: none;
+}
+.lepoid li{
+    padding: 8px 0;
+}
+.lepoid li a{
+    color: white;
+}
+.lepoid li a:hover{
+    color: white;
+    text-decoration: none;
+}
+.poidinfo{
+    margin-top: 5rem;
+}
+.pouremails{
+    padding-top: 3rem;
+    padding-right: 3rem;
+}
+.poid a{
+    color: black;
+}
+
+.poid p{
+    text-align: center;
+    margin: 1.5rem auto;
+}
+
+
+
+/* login page style */
+.loginhello{
+    background: url('../images/02.png') no-repeat center;
+    height: 15rem;
+    margin: 6rem 3rem auto 3rem;
+    text-align: left;
+}
+.loginhello h1{
+    position: absolute;
+    color: black;
+    font-size: 100px;
+    line-height: 1.1;
+    font-family:fantasy;
+    font-weight: 700;
+    word-spacing: 1rem;
+    margin: 1rem auto auto 1rem;
+    opacity: 60%;
+
+}
+.loginhello h1 span{
+}
+.loginpage{
+    background-color: white;
+    align-items: center;
+    padding: 1rem 5rem 5rem 5rem;
+    box-shadow: 0px 0px 10px 0px rgb(136 136 136 / 40%);
+    max-width: 35rem;
+    margin: 0 auto auto auto;
+    border-radius: 4px;
+}
+.loginpage .form-control{
+    border-radius: 0;
+    border: #1011152e 0.1rem solid !important;
+    height: 2.8rem;
+}
+.loginpage .form-control:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.loginpage h1{
+    color: #101115de;
+    font-size: 2rem;
+    line-height: 1.1;
+    text-align: center;
+    font-weight: 700;
+    margin:1rem auto 2rem auto;
+    opacity: 90%;
+}
+.btnlogin{
+    padding: 0.5rem 9.3rem;
+    background: #f16126;
+    color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    border:0;
+}
+.btnlogin:hover{
+    text-decoration: none;
+    background-color: rgb(36, 163, 36);
+    color: rgb(248, 255, 181);
+    border: 0;
+}
+.loginpage p{
+    margin-top: 1rem;
+    text-align: center;
+    color: #101115de;
+}
+.loginpage p a{
+    color: black;
+}
+.loginpage p a:hover{
+    color: #f16126;
+    text-decoration: none;
+}
+
+/* contact page style */
+.contactushello{
+    background: url('../images/05.jpg')center;
+    height: 15rem;
+    margin: 5rem 3rem auto 3rem;
+    text-align: left;
+}
+.contactus{
+    margin-top: 5rem;
+}
+.contactus h4{
+    color: #f16126;
+    letter-spacing: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.contactus h1{
+    color: black;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 700;
+    text-align: center;
+}
+.localisation{
+    margin-top: 5rem;
+}
+.map iframe{
+    border: 0;
+    height: 20rem;
+}
+.contactboxx{
+    background: white;
+    padding: 1rem auto 0.2 0.2rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.227);
+
+}
+.contactboxx i{
+    color: #f16126;
+    font-size: 30px;
+    margin: 1rem auto auto 1rem;
+}
+.contactboxx h6{
+    position: relative;
+    top: -2rem;
+    color: #101115;
+    font-weight: 700;
+    left: 4rem;
+    margin: auto auto auto 1rem;
+}
+.contactboxx p{
+    position: relative;
+    top: -2rem;
+    left: 4rem;
+    margin: auto auto auto 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.contactfrm{
+    align-items: center;
+    padding: 1rem 5rem 5rem 5rem;
+    max-width: 50rem;
+    margin: 5rem auto auto auto;
+    border-radius: 4px;
+    border-radius: 0;
+}
+.contactfrm input{
+    padding: 1.5rem 2rem;
+    margin: 1rem;
+    border-radius: 0;
+    border: 1px solid #f0f0f0;
+    box-shadow: 0px 3px 4px 0px rgb(0 0 0 / 6%);
+}
+.contactfrm .form-control:focus{
+        outline: none !important;
+        box-shadow: none !important;
+}
+.contactfrm textarea{
+    width: 100%;
+    margin:1rem;
+    border: 1px solid #f0f0f0;
+    min-height: 10rem;
+    padding: 1.5rem 2rem ;
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 6%);
+}
+.contactfrm .btnlogin{
+    margin: 1rem auto auto 5rem;
+}
+/* le prix style */
+.prix{
+    margin-top: 3rem;
+}
+.prixcard{
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 5px 10px rgb(16 17 21 / 10%);
+    
+}
+.prixcard h4{
+    background: #26C976;
+    padding: 1rem;
+    margin-top: -3.5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.prixcard h1{
+    font-size: 1rem;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.prixcard span{
+    font-size: 20px;
+}
+.prixcard sub{
+    margin: 2rem auto auto -2rem;
+}
+
+.prixcard a{
+    background:#f9e8b0;
+    padding: 1rem 2rem;
+    margin: 3rem 1rem auto 1.2rem;
+    border-radius: 15px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+.prixcard a:hover{
+    text-decoration: none;
+}
+.pdesinfo{
+    margin: 1rem auto 3rem auto;
+}
+.pdesinfo ul{
+    list-style: none;
+}
+.pdesinfo i{
+    color: #26C697;
+}
+.pdesinfo ul li{
+    color: black;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
